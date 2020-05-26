@@ -1,0 +1,27 @@
+@import 'IEPS_framework/variables';
+main{
+  background:white;
+  h1{
+    font-size: 1.7em;
+    font-weight: 100;
+    text-align: center;
+    margin-top:0;
+          font-family: "MarketDeco";
+    color:$couleurOrange;
+    text-transform: uppercase;
+  }
+  h2{
+    font-weight: 100;
+          font-family: "MarketDeco";
+          color:$couleurOrange;
+          text-transform: uppercase;
+  }
+}
+p{
+  color:$couleurGrisClair;
+}
+main img{
+}
+.textAbout{
+  padding-left: 1.5em;
+}

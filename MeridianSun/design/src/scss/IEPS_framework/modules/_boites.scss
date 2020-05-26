@@ -1,0 +1,69 @@
+/*
+  ./src/scss/IEPS_framework/modules/boite.scss
+  MODULES DES BOITES
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+
+.conteneur {
+  width: 100%;
+  max-width: $largeurBoiteFixe;
+  margin: auto;
+  padding:1.5em;
+}
+
+.boite-marge-nulle {
+  margin: 0;
+}
+figure{
+  margin:0;
+  padding:0;
+}
+  .imgCentree{
+    width:calc(100% + 3em + 1px);
+    position: relative;
+    left: -1.5em;
+    margin:0;
+  }
+
+
+
+.backgroundGlobal{
+  background: white;
+}
+.description{
+  color: $couleurGrisClair;
+  text-align: center;
+  padding-top:0;
+  padding-bottom: 1em;
+  &Mini{
+    color: $couleurGrisClair;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width:1024px){
+  body{
+    padding-top: 2em;
+    background: url(../../../document/images/bg1.jpg) repeat;
+  }
+}
+@media screen and (min-width:1024px){
+  body {
+    width: 100%;
+    max-width: $largeurBoiteFixe;
+    margin: auto;
+    padding: 1.5em;
+  }
+}
+@media screen and (max-width:1024px){
+  body{
+     margin:0;
+     padding:0;
+  }
+}
+figcaption{
+  display:none;
+}

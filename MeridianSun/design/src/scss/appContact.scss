@@ -1,0 +1,64 @@
+@import 'IEPS_framework/variables';
+.mapContact{
+
+}
+main{
+  background: white;
+}
+.formResponsive{
+  padding-left: 1em;
+  padding-right: 1em;
+  background:rgb(244,244,244);
+  border: none;
+}
+label{
+  display: none;
+}
+main{
+  h1,h2{
+    font-weight: 100;
+    color: $couleurOrange;
+    font-family: "MarketDeco";
+  }
+  h1{
+    font-size: 1.7em;
+    font-weight: 100;
+    text-align: center;
+  }
+  p{
+    color: $couleurGrisClair;
+  }
+}
+.submit{
+  margin-left: 1em;
+  margin-bottom: 1em;
+  background:rgb(103,103,103);
+  border-color: rgb(103,103,103);
+  border-radius: 4px;
+  color:white;
+  box-shadow: none;
+}
+textarea{
+ border: none;
+ width:90%;
+ height: 15em;
+}
+.champInput{
+  border: none;
+  padding:.5em;
+  width:80%;
+}
+iframe{
+width: calc(100% + 3em);
+position: relative;
+left: -1.5em;
+}
+.champFormulaire{
+  padding-top: .8em;
+
+}
+@media screen and (max-width:1024px){
+  fieldset{
+    width:200px;
+  }
+}

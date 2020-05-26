@@ -1,0 +1,31 @@
+/*
+  ./src/scss/ieps_framework/modules/_grille.scss
+  Module de la grille
+ */
+
+// LE CONTENEUR --------------------------
+  .grille {
+    display: grid;
+    grid-template-columns: repeat($grilleNombreColonnes, 1fr);
+    &.grille-gouttiere {
+      grid-gap: $grilleGouttiere;
+    }
+  }
+
+// TOUS LES ITEMS A $grilleNombreColonnes COLONNES PAR DEFAUT
+  .grille > * {
+    grid-column: span $grilleNombreColonnes;
+  }
+  
+  @each $etiquette, $dimension in $breakpoints {
+    @media screen and (min-width: $dimension){
+      @for $i from 1 through $grilleNombreColonnes {
+        .#{$etiquette}#{$i} {
+          grid-column: span $i;
+        }
+        .#{$etiquette}-r#{$i} {
+          grid-row: span $i;
+        }
+      }
+    }
+  }

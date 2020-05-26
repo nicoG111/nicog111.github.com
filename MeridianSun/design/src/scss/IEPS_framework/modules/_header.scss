@@ -1,0 +1,177 @@
+
+/*
+  ./src/scss/ieps_framework/modules/_header.scss
+  Module du header
+ */
+ .searchIcon{
+
+ }
+/*.hrNavHaut{
+  opacity: 100%;
+padding-top: .3em;
+color: rgb(152,86,87);
+}
+.hrNavBas{
+  opacity: 100%;
+padding-bottom: .3em;
+  color: rgb(152,86,87);
+}*/
+ header{
+   hr {
+     color:$couleurGrisClair;
+  opacity: 25%;
+	border-top: 1px dashed ;
+}
+   h1{
+     a{
+       text-decoration: none;
+       color:$couleurGrisClair;
+     }
+     margin: 0;
+     padding:1em;
+     font-family: 'Kaushan Script', cursive;
+     color: #a0a0a0;
+     font-size: 2.2em;
+     font-weight: 100;
+   }
+   background: white;
+ }
+.navLogo{
+ margin:0;
+
+ div{
+   .searchHeader{
+     width: 4em;
+   }
+   position: absolute;
+   margin-top: -1.5em;
+ }
+ul{
+  margin:0;
+  padding-top: 3em;
+}
+
+}
+.searchHeader{
+  width:5em;
+}
+.navPrincipale{
+  .hrNavBas{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    opacity: 100%;
+  padding-bottom: .3em;
+    color: rgb(152,86,87);
+  }
+  font-family: MarketDecoRegular;
+  text-align: center;
+  line-height: 0.2px;
+  li{
+
+    font-family: "MarketDeco";
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+}
+ ul li{
+  display: inline-block;
+  a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color:white;
+      &:hover{
+        color:$couleurGrisClair;
+      }
+  }
+
+}
+
+@media screen and (max-width:768px){
+  header{
+    text-align: center;
+  }
+}
+@media screen and (min-width:768px){
+  .navPrincipale{
+    background: rgb(175,97,98);
+  }
+}
+@media screen and (min-width:1024px){
+  .navPrincipale{
+    width: calc(100% + 0em + 40px);
+    position: relative;
+    left: calc(0em - 20px);
+
+  }
+.navPrincipale:before{
+  content: '';
+  display: block;
+  background: rgb(121,62,62);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom:-10px;
+  transform: skewY(45deg);
+  z-index: -1;
+}
+.navPrincipale:after{
+  content: '';
+  display: block;
+  background: rgb(121,62,62);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  bottom:-10px;
+  transform: skewY(-45deg);
+  z-index: -1;
+}
+}
+.historique{
+    text-align: center;
+    div{
+      display: inline-block;
+      padding-top: 1em;
+      padding-bottom: 1em;
+
+    }
+  &Orange{
+    color: $couleurOrange;
+  }
+  &Gris{
+    color: $couleurGrisClair;
+  }
+}
+.flecheDroite{
+  position: absolute;
+  right:0;
+  top: 300px;
+  height: 50px;
+}
+.flecheGauche{
+  position: absolute;
+  left:0;
+    top: 300px;
+    height: 50px;
+}
+#menu{
+  text-align: center;
+  margin-top: 1.5em;
+  width:20em;
+}
+.searchIcon{
+  background:rgb(64,64,64);
+  padding: 7px;
+  position: absolute;
+  margin-top: -1px;
+}
+
+.searchHeader,.searchHeaderS{
+  padding: 3px;
+  color:$couleurGrisClair;
+  position: relative;
+  margin-top: -1px;
+}

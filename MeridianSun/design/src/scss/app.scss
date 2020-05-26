@@ -1,0 +1,74 @@
+@import 'IEPS_framework/variables';
+
+
+header{
+  p{
+
+    padding:1.5em;
+    text-align: center;
+    color: #a0a0a0;
+  }
+}
+main{
+  background:white;
+  color:#a0a0a0;
+  h1{
+    font-size: 1.7em;
+    font-weight: 100;
+    line-height: normal;
+    padding-bottom: 1em;
+    font-family: "MarketDeco";
+    color: rgb(175,97,98);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+h1,h2{
+  text-align: center;
+
+}
+  p{
+  font-family: "Merriweather-Regular", serif;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+}
+.videoYT iframe{
+width: calc(100% + 3em);
+position: relative;
+left: -1.5em;
+}
+iframe{
+width: calc(100% + 3em);
+position: relative;
+left: -1.5em;
+}
+.video{
+height: 25em;
+}
+.nbrPage{
+  ul{
+    li{
+
+    }
+    a{
+      color:rgb(64,64,64);
+      color:white;
+    }
+  }
+    text-align: center;
+  }
+main{
+  ul{
+  display: inline;
+}
+  li{
+    background:rgb(103,103,103);
+    color:white;
+    width: 20px;
+    height: 20px;}
+
+
+}
