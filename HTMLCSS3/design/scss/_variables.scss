@@ -1,0 +1,18 @@
+/*
+  ./src/scss/IEPS_framework/variables.scss
+  VARIABLES
+*/
+$color-hot: #c90167; // orange
+$color-light: #F4F4F4; // blanc
+$color-dark: #202020; // gris foncé
+    /* GRIDS */
+    $grilleNombreColonnes: 12;
+    $grilleGouttiere: 1em;
+
+    $breakpoints: (
+        'xs' : '0',
+        's' : '600px',
+        'm' : '800px',
+        'l' : '1000px',
+        'xl' : '1200px'
+        );
