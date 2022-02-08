@@ -1,0 +1,55 @@
+/*
+  ./src/scss/ieps_framework/modules/_footer.scss
+  Module du footer
+ */
+
+footer{
+  background:#191919;
+
+  h1{
+    font-weight: 100;
+    color:rgb(175,97,98);
+    font-family: "MarketDeco";
+    font-size:20px;
+    text-transform: uppercase;
+  }
+  ul{
+    padding:0;
+    li{
+      list-style: circle;
+    }
+  }
+  ul li,p{
+    color:#a0a0a0;
+    font-family: "Merriweather-Regular",serif;
+  }
+}
+.footerCopyright{
+   background: rgb(19,19,19);
+   color:#a0a0a0;
+   text-align: center;
+   width: calc(100% + 3em);
+   position: relative;
+   left: -1.5em;
+   bottom:-1.5em;
+   line-height: 50px;
+    font-family: 'Merriweather', serif;
+}
+.policeM{
+ font-size: 20px;
+}
+.policeL{
+ font-size: 30px;
+}
+.policeS{
+ font-size: 12px;
+}
+.footerArchives,.footerRecentPost{
+line-height: 30px;
+}
+.champFooter{
+ background: rgb(19,19,19);
+ color: #a0a0a0;
+ height: 30px;
+ border: 0;
+}

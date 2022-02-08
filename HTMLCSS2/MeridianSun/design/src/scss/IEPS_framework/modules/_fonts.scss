@@ -1,0 +1,40 @@
+/*
+  ./src/scss/ieps_framework/_fonts.scss
+  Variables du framework IEPS CSS
+*/
+
+  /* FONTS */
+  /* _________________________________________________________________________*/
+
+    @font-face {
+      font-family: "KaushanScript-Regular";
+      src: url("../../../fonts/KaushanScript.woff") format("woff"),
+        url("../../../fonts/KaushanScript.woff2") format("woff2");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "MarketDeco";
+
+      src: url("../../../fonts/MarketDecoRegular.woff") format("woff"),
+        url("../../../fonts/MarketDecoRegular.woff2") format("woff2");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Merriweather-Regular";
+
+      src: url("../../../fonts/MerriweatherRegular.woff") format("woff"),
+        url("../../../fonts/MerriweatherRegular.woff2") format("woff2");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+  /* VARIABLES */
+  /* _________________________________________________________________________*/
+
+    $fontText: "Merriweather-Regular";
+    $fontTitle: "MarketDeco";
+    $fontLogo: "KaushanScript-Regular";
