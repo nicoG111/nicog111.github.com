@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Un panier d'achat</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+<!-- section>(header>h1+h2)+main>(ul>li*4)+div*3 -->
+<section class="container">
+  <header>
+    <h1>Mon beau magasin</h1>
+    <h2>Catalogue</h2>
+  </header>
+  <main>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Produit</th>
+      <th scope="col">Prix</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Un beret</td>
+      <td>25€</td>
+      <td><a href="#" class="acheter" data-prix="25">Acheter</a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Un pain</td>
+      <td>2.5€</td>
+      <td><a href="#" class="acheter" data-prix="2.5">Acheter</a></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Une limousine</td>
+      <td>600€</td>
+      <td><a href="#" class="acheter" data-prix="600">Acheter</a></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Une merguez</td>
+      <td>3€</td>
+      <td><a href="#" class="acheter" data-prix="3">Acheter</a></td>
+    </tr>
+    <tr>
+      <td scope="row"></th>
+      <td><div>Total HTVA:</div>
+      <div>TVA:</div>
+      <div>Total TVAc:</div>
+      </td>
+      <td>
+        <div><span id="htva" >0</span> €</div>
+        <div><span id="tva" >0</span> €</div>
+        <div><span id="tvac">0</span> €</div>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+  </main>
+</section>
+<script src="panier.js"></script>
+</body>
+</html>
