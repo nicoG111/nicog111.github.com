@@ -1,0 +1,18 @@
+/*
+  ./src/scss/ieps_framework/modules/_boutons.scss
+  Module des boutons
+ */
+.btn{
+  background:$couleur2;
+  color:$couleurBtn;
+  text-decoration: none;
+  padding:$btnPadding;
+  border-radius: 3px;
+}
+.btn-primary{
+   background:$couleur2;
+   text-decoration:none;
+   color: $couleurBtn;
+   border-radius: 3px;
+   padding: $btnPrimaryPadding;
+}

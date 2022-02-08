@@ -1,0 +1,108 @@
+@import 'IEPS_framework/variables';
+body {
+      margin: 0;
+      padding: 0;
+    }
+body{
+
+  width: 100%;
+}
+header{
+  background:rgb(52,58,64);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .o-header{
+    padding-left: $paddingPage;
+    padding-right:$paddingPage;
+  h1{
+    margin:0;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+     a{
+    padding-right: 0;
+    padding-left: 0;
+    color:white;
+    text-decoration: none;
+
+  }
+  a:hover{
+    color:white;
+  }
+ }
+}
+  nav{
+
+  }
+}
+.sectionHero{
+  background:rgb(5,123,255);
+  border-top: 0;
+  padding-bottom:$paddingPage;
+  .o-hero{
+    padding-left: 5em;
+    padding-right:5em;
+    h1{
+      padding-top: 2.5em;
+      margin-top: 0;
+      font-size: 3em;
+      color:white;
+    }
+    p{
+      font-size: 1em;
+      color: rgb(131,190,255);
+    }
+  }
+
+}
+footer{
+  background:rgb(52,58,64);
+  text-align: center;
+  padding:2.5em;
+  div{
+    color:white;
+  }
+}
+.sectionArticle{
+padding: $paddingPage;
+  a{
+
+  }
+}
+h2{
+  border-bottom: 1px solid;
+  border-color: rgb(153,156,159);
+}
+.o-whatwedo{
+  padding-left: $paddingPage;
+  padding-right: $paddingPage;
+  h1{
+    padding-bottom: 1em;
+  }
+   p{
+     padding-bottom: 1em;
+   }
+}
+.o-contact{
+  padding-right:$paddingPage;
+  padding-left: $paddingPage;
+  h1{
+    padding-bottom: 1em;
+  }
+
+}
+button{
+  margin-left: 7.5em;
+  margin-top: 1em;
+  margin-bottom:1em;
+  background:none;
+  border: 1px solid;
+  border-color:rgb(153,156,159);
+  color: rgb(153,156,159);
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}

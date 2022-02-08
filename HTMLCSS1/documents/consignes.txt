@@ -1,0 +1,14 @@
+START BOOTSTRAP - CONSIGNES
+
+- Le menu doit rester visible et fixe même quand on scrolle
+- Le menu s'affiche en slideDown quand on clique sur le bouton hamburger (utilisez une étiquette adéquate)
+- Créer, dans votre framework, un module 'helpers' et y créer les éqiuettes 'card', 'card-img', 'card-body', 'card-title', 'card-text', 'card-footer'
+- Créer les étiquettes 'btn' et 'btn-primary' dans votre framework
+
+
+Couleur:
+Gris: rgb(52,58,64)
+bleu: rgb(5,123,255)
+police:rgb(52,56,59)
+police header: rgb(153,156,159)
+bleu clair:rgb(131,190,255)

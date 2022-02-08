@@ -1,0 +1,18 @@
+/*
+  ./src/scss/IEPS_framework/modules/boite.scss
+  MODULES DES BOITES
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+.conteneur {
+  width: 100%;
+  max-width: $largeurBoiteFixe;
+  margin: auto;
+}
+
+.boite-marge-nulle {
+  margin: 0;
+}

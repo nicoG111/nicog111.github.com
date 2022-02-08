@@ -1,0 +1,29 @@
+
+.card{
+  width:95%;
+  padding-bottom: 1em;
+  .card-img{
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .card-body{
+    padding-left: $paddingArticle;
+    border:solid 1px;
+    border-color: rgb(153,156,159);
+  }
+  .card-title{
+     font-size: 1.5em;
+  }
+  .card-text{
+    font-size: 1em;
+  }
+  .card-footer{
+    padding-left: $paddingArticle;
+    border:1px solid ;
+    border-color: rgb(153,156,159);
+    background: rgb(247,247,247);
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+  }
+}
